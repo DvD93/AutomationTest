@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteInsumo]">
+  <test name="Prueba de Servicio Simulado(failed)">
+    <classes>
+      <class name="com.unknow.test.services.InsumoTest">
+        <methods>
+          <include name="getAll"/>
+          <include name="setUp"/>
+          <include name="getByIdUsingPathParam"/>
+        </methods>
+      </class> <!-- com.unknow.test.services.InsumoTest -->
+    </classes>
+  </test> <!-- Prueba de Servicio Simulado(failed) -->
+</suite> <!-- Failed suite [SuiteInsumo] -->

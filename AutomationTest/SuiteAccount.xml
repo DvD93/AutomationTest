@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteAccount">
+	
+	<test name="Usando firefox en windows">
+		<parameter name="browser" value="remoteWindowsFirefox" />
+		<classes>
+			<class name="com.unknow.test.AccessTest">
+				<methods>
+						<include name="registWithRequiredParametersTest"/>
+						<include name="modifyEmailTest"/>
+						<include name="registWithFullParametersTest"/>
+					</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Usando Firefox en windows clear">
+		<parameter name="browser" value="remoteWindowsFirefox" />
+		<classes>
+			<class name="com.unknow.test.AccessTest">
+				<methods>
+						<include name="modifyEmailTest"/>
+					</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Usando Chrome en windows">
+		<parameter name="browser" value="remoteWindowsChrome" />
+		<classes>
+			<class name="com.unknow.test.AccessTest">
+				<methods>
+						<include name="registWithRequiredParametersTest"/>
+						<include name="modifyEmailTest"/>
+						<include name="registWithFullParametersTest"/>
+					</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Usando Chrome en windows clear ">
+		<parameter name="browser" value="remoteWindowsChrome" />
+		<classes>
+			<class name="com.unknow.test.AccessTest">
+				<methods>
+						<include name="modifyEmailTest"/>
+					</methods>
+			</class>
+		</classes>
+	</test>
+	<!--  <test name="Usando Chrome en Linux">
+		<parameter name="browser" value="remoteLinuxChrome" />
+		<classes>
+			<class name="com.unknow.test.AccessTest">
+				<methods>
+						<include name="registWithRequiredParametersTest"/>
+						<include name="modifyEmailTest"/>
+						<include name="registWithFullParametersTest"/>
+					</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Usando Chrome en Linux clear ">
+		<parameter name="browser" value="remoteLinuxChrome" />
+		<classes>
+			<class name="com.unknow.test.AccessTest">
+				<methods>
+						<include name="modifyEmailTest"/>
+					</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Usando Chrome en Mac">
+		<parameter name="browser" value="remoteMacChrome" />
+		<classes>
+			<class name="com.unknow.test.AccessTest">
+				<methods>
+						<include name="registWithRequiredParametersTest"/>
+						<include name="modifyEmailTest"/>
+						<include name="registWithFullParametersTest"/>
+					</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Usando Chrome en Mac clear ">
+		<parameter name="browser" value="remoteMacChrome" />
+		<classes>
+			<class name="com.unknow.test.AccessTest">
+				<methods>
+						<include name="modifyEmailTest"/>
+					</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Usando Chrome en Android">
+		<parameter name="browser" value="remoteAndroidChrome" />
+		<classes>
+			<class name="com.unknow.test.AccessTest">
+				<methods>
+						<include name="registWithRequiredParametersTest"/>
+						<include name="modifyEmailTest"/>
+						<include name="registWithFullParametersTest"/>
+					</methods>
+			</class>
+		</classes>
+	</test>
+	<test name="Usando Chrome en Android clear ">
+		<parameter name="browser" value="remoteAndroidChrome" />
+		<classes>
+			<class name="com.unknow.test.AccessTest">
+				<methods>
+						<include name="modifyEmailTest"/>
+					</methods>
+			</class>
+		</classes>
+	</test>-->
+</suite>

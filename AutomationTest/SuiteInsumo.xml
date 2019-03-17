@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteInsumo">
+	
+	<test name="Prueba de Servicio Simulado">
+		<classes>
+			<class name="com.unknow.test.services.InsumoTest">
+				<methods>
+						<include name="getAll"/>
+						<include name="getByIdUsingPathParam"/>
+						<include name="addProductBadRequest"/>
+						<include name="addProduct"/>
+						<include name="getByIdUsingQueryParam"/>
+						<include name="deleteProduct"/>
+					</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

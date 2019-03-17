@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteInsumo" duration-ms="3467" started-at="2019-03-17T15:09:01Z" finished-at="2019-03-17T15:09:05Z">
+    <groups>
+    </groups>
+    <test name="Prueba de Servicio Simulado" duration-ms="3467" started-at="2019-03-17T15:09:01Z" finished-at="2019-03-17T15:09:05Z">
+      <class name="com.unknow.test.services.InsumoTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.unknow.test.services.InsumoTest@5442a311]" name="setUp" is-config="true" duration-ms="508" started-at="2019-03-17T12:09:01Z" finished-at="2019-03-17T12:09:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAll()[pri:0, instance:com.unknow.test.services.InsumoTest@5442a311]" name="getAll" duration-ms="2394" started-at="2019-03-17T12:09:02Z" finished-at="2019-03-17T12:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAll -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.unknow.test.services.InsumoTest@5442a311]" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-17T12:09:04Z" finished-at="2019-03-17T12:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getByIdUsingPathParam()[pri:0, instance:com.unknow.test.services.InsumoTest@5442a311]" name="getByIdUsingPathParam" duration-ms="89" started-at="2019-03-17T12:09:04Z" finished-at="2019-03-17T12:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByIdUsingPathParam -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.unknow.test.services.InsumoTest@5442a311]" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-17T12:09:04Z" finished-at="2019-03-17T12:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addProductBadRequest()[pri:0, instance:com.unknow.test.services.InsumoTest@5442a311]" name="addProductBadRequest" duration-ms="129" started-at="2019-03-17T12:09:04Z" finished-at="2019-03-17T12:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProductBadRequest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.unknow.test.services.InsumoTest@5442a311]" name="setUp" is-config="true" duration-ms="1" started-at="2019-03-17T12:09:04Z" finished-at="2019-03-17T12:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addProduct()[pri:0, instance:com.unknow.test.services.InsumoTest@5442a311]" name="addProduct" duration-ms="168" started-at="2019-03-17T12:09:04Z" finished-at="2019-03-17T12:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.unknow.test.services.InsumoTest@5442a311]" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-17T12:09:04Z" finished-at="2019-03-17T12:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getByIdUsingQueryParam()[pri:0, instance:com.unknow.test.services.InsumoTest@5442a311]" name="getByIdUsingQueryParam" duration-ms="74" started-at="2019-03-17T12:09:04Z" depends-on-methods="com.unknow.test.services.InsumoTest.addProduct" finished-at="2019-03-17T12:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getByIdUsingQueryParam -->
+        <test-method status="PASS" signature="deleteProduct()[pri:0, instance:com.unknow.test.services.InsumoTest@5442a311]" name="deleteProduct" duration-ms="51" started-at="2019-03-17T12:09:04Z" depends-on-methods="com.unknow.test.services.InsumoTest.getByIdUsingQueryParam" finished-at="2019-03-17T12:09:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.unknow.test.services.InsumoTest@5442a311]" name="setUp" is-config="true" duration-ms="0" started-at="2019-03-17T12:09:04Z" finished-at="2019-03-17T12:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.unknow.test.services.InsumoTest -->
+    </test> <!-- Prueba de Servicio Simulado -->
+  </suite> <!-- SuiteInsumo -->
+</testng-results>

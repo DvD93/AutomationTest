@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SuiteCiudad">
+	
+	<test name="Prueba de Servicio Hosteado">
+		<classes>
+			<class name="com.unknow.test.services.CiudadTest">
+				<methods>
+						<include name="statusCodeTest"/>
+						<include name="contentTypeTest"/>
+						<include name="logRequestAndResponseTest"/>
+						<include name="stateNameInResponseBodyTest"/>
+						<include name="listOfPlaceNamesInResponseBodyTest"/>
+						<include name="numberOfPlaceNamesInResponseBodyTest"/>
+						<include name="placeNameInResponseBodyTest"/>
+						<include name="placeNameInResponseBodyTest"/>
+						<include name="placeNameFromResponseBodyTest_assertEqualTo"/>
+					</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

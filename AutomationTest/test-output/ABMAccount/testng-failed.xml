@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ABMAccount]">
+  <test name="Usando firefox en windows(failed)">
+    <parameter name="browser" value="remoteWindowsFirefox"/>
+    <classes>
+      <class name="com.unknow.test.AccessTest">
+        <methods>
+          <include name="modifyEmailTest"/>
+          <include name="setUp"/>
+          <include name="registWithFullParametersTest"/>
+          <include name="tearDown"/>
+          <include name="registWithRequiredParametersTest"/>
+        </methods>
+      </class> <!-- com.unknow.test.AccessTest -->
+    </classes>
+  </test> <!-- Usando firefox en windows(failed) -->
+  <test name="Usando Firefox en windows clear(failed)">
+    <parameter name="browser" value="remoteWindowsFirefox"/>
+    <classes>
+      <class name="com.unknow.test.AccessTest">
+        <methods>
+          <include name="modifyEmailTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.unknow.test.AccessTest -->
+    </classes>
+  </test> <!-- Usando Firefox en windows clear(failed) -->
+  <test name="Usando Chrome en windows(failed)">
+    <parameter name="browser" value="remoteWindowsChrome"/>
+    <classes>
+      <class name="com.unknow.test.AccessTest">
+        <methods>
+          <include name="modifyEmailTest"/>
+          <include name="setUp"/>
+          <include name="registWithFullParametersTest"/>
+          <include name="tearDown"/>
+          <include name="registWithRequiredParametersTest"/>
+        </methods>
+      </class> <!-- com.unknow.test.AccessTest -->
+    </classes>
+  </test> <!-- Usando Chrome en windows(failed) -->
+  <test name="Usando Chrome en windows clear (failed)">
+    <parameter name="browser" value="remoteWindowsChrome"/>
+    <classes>
+      <class name="com.unknow.test.AccessTest">
+        <methods>
+          <include name="modifyEmailTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.unknow.test.AccessTest -->
+    </classes>
+  </test> <!-- Usando Chrome en windows clear (failed) -->
+</suite> <!-- Failed suite [ABMAccount] -->
